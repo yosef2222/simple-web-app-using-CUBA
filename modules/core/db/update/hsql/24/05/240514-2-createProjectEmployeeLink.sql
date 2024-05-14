@@ -1,0 +1,2 @@
+alter table TEST_PROJECT_EMPLOYEE_LINK add constraint FK_PROEMP_ON_PROJECT foreign key (PROJECT_ID) references TEST_PROJECT(ID);
+alter table TEST_PROJECT_EMPLOYEE_LINK add constraint FK_PROEMP_ON_EMPLOYEE foreign key (EMPLOYEE_ID) references TEST_EMPLOYEE(ID);
